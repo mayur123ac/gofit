@@ -63,8 +63,8 @@ function ProgressBadge({ current, compare }: { current: ISet[]; compare: Compare
             {p.weightDiff !== 0 && (
                 <span
                     className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold border ${p.weightDiff > 0
-                            ? "bg-green-500/10 border-green-500/30 text-green-400"
-                            : "bg-red-500/10 border-red-500/30 text-red-400"
+                        ? "bg-green-500/10 border-green-500/30 text-green-400"
+                        : "bg-red-500/10 border-red-500/30 text-red-400"
                         }`}
                 >
                     {p.weightDiff > 0 ? "+" : ""}{p.weightDiff}kg weight
@@ -73,8 +73,8 @@ function ProgressBadge({ current, compare }: { current: ISet[]; compare: Compare
             {p.repsDiff !== 0 && (
                 <span
                     className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-bold border ${p.repsDiff > 0
-                            ? "bg-orange-500/10 border-orange-500/30 text-orange-400"
-                            : "bg-red-500/10 border-red-500/30 text-red-400"
+                        ? "bg-orange-500/10 border-orange-500/30 text-orange-400"
+                        : "bg-red-500/10 border-red-500/30 text-red-400"
                         }`}
                 >
                     {p.repsDiff > 0 ? "+" : ""}{p.repsDiff} total reps
